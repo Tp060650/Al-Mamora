@@ -1,0 +1,340 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, a, img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Montserrat', serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+
+/* For The Background Photo */
+.container {
+  position: relative; /* Footer */
+
+.contact {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+}
+
+.contact p {
+  margin-bottom: 40px;
+}
+
+.email {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.container input[type="text"],
+.container textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.whatsapp-icon {
+  width: 40px;
+  height: 40px;
+
+  margin-left: 5px;
+  /* mix-blend-mode: color; */
+}
+
+.Facebook-icon{
+  width: 40px;
+  height: 40px;
+
+  margin-left: 5px;
+  /* mix-blend-mode: color; */
+  
+}
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #e4e4e4;
+  color: #0e0d0d;
+  padding: 20px 0;
+}
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*  Logo Here */
+
+.logo img {
+  height: 40px;
+  margin-left:5px;
+}
+
+/* Al-Mamoura Logo text */
+
+.logo-text {
+  margin-right: 10px; /* Adjust the spacing as needed */
+  vertical-align: center; /* Align vertically with the logo */
+}
+
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu li a {
+  color: #050404;
+  text-decoration: none;
+}
+
+/* Product informaction */
+
+.photos {
+  padding: 50px 0;
+  text-decoration: none;
+}
+
+.photos .container {
+  text-align: center;
+}
+
+.photos h2 {
+  margin-bottom: 30px;
+}
+
+.photo-item {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+}
+
+.photo-item h3 {
+  margin-top: 20px;
+}
+
+.photo-item p {
+  margin-top: 10px;
+}
+
+
+/* Products Photos size */
+
+.photo-item img {
+  width: 300px; /* Adjust the desired width */
+  height: 200px; /* Adjust the desired height */
+}
+
+.photos_R {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px 0;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.photos_P{
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 50px 0;
+  text-decoration: none;
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.photos{
+  font-family: 'Times New Roman', Times, serif;
+  color: Black;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.contact {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+}
+
+.contact p {
+  margin-bottom: 40px;
+}
+
+.email {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.container input[type="text"],
+.container textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.whatsapp-icon {
+  width: 40px;
+  height: 40px;
+
+  margin-left: 5px;
+  /* mix-blend-mode: color; */
+}
+
+.Facebook-icon{
+  width: 40px;
+  height: 40px;
+
+  margin-left: 5px;
+  /* mix-blend-mode: color; */
+  
+}
+
+/* Mobile 1 */
+
+
+    @media screen and (max-width: 480px),(max-width: 768px) {
+      .menu-toggle {
+        position: relative;
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(./Icons/menu.png) no-repeat 98% center;
+        cursor: pointer;
+        text-align: right;
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+
+      .menu {
+        display: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .menu.open {
+        display: block;
+      }
+
+      .menu li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid #404040; */
+      }
+
+      .menu li a {
+        display: block;
+        padding: 10px;
+        color: #d41c0c;
+        text-decoration: none;
+        text-align: center;
+      }
+
+
+      /* For the Photos  */
+
+      .photo-item {
+        margin-bottom: 10px;
+      }
+    
+      .photo-item img {
+        max-width: 100%;
+        height: 150px;
+      }
+    
+      .photo-item h3 {
+        font-size: 16px;
+      }
+    }
+
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZoyTechs</title>
+  <link rel="stylesheet" href="Product.css">
+  
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="Company.html">
+            <img src="./Phtos /Logo.svg" alt="ZoyTechs Logo">
+          </a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()"></div>
+        <ul class="menu" id="menu">
+          <li><a href="COMPANY.html">Home</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="photos">
+    <div class="container">
+      <h2>Our Products</h2>
+
+      <br>
+      
+      <div class="photo-item">
+        <a href="Rapid Test.html">
+          <img src="./Phtos /Rapid Test.jpg" alt="Photo 2">
+          <a href="#"><h3> Rapid Test </h3></a>
+        </a>
+      </div>
+
+      <div class="photo-item">
+        <a href="Beauty.html">
+          <img src="./Phtos /Beauty.jpg" alt="Photo 2">
+          <a href="#"><h3> Beauty </h3></a>
+        </a>
+      </div>
+     
+      <div class="photo-item">
+        <a href="Plastic.html">
+          <img src="./Phtos /plastic and tubes.jpg" alt="Photo 3">
+          <a href="Plastic.html"><h3> Plastic & Tubes </h3></a>
+        </a>
+      </div>
+
+      <!-- <div class="photo-item">
+        <a href="#">
+          <img src="./Phtos /CLINICAL CHEMISTRY.jpg" alt="Photo 3">
+          <a href="#"><h3> Clinical Chemistry </h3></a>
+        </a>
+      </div> -->
+    </div>
+  </section>
+  
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for any inquiries or project discussions.</p>
+      <a href="mailto:info@zoytechs.com" class="email">info@zoytechs.com</a>
+
+      <br>
+      <br>
+
+      <a href="https://wa.link/hgbazc" target="_blank">
+        <img src="./Icons/whatsapp.png" alt="WhatsApp Logo" class="whatsapp-icon">
+      </a>
+
+      <a href="https://www.instagram.com/zoytech.iq/" target="_blank">
+        <img src="./Icons/instagram.png" alt="INSTGRAM Logo" class="whatsapp-icon">
+      </a>
+
+      <a href="https://www.facebook.com/zoytech.iq?mibextid=LQQJ4d" target="_blank">
+        <img src="./Icons/facebook.png" alt="Facebook Logo" class="Facebook-icon">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Al-Mamoura. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('menu');
+      menu.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

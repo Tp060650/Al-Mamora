@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZoyTechs</title>
+  <link rel="stylesheet" href="Product.css">
+
+  <style>
+    body {
+     position: relative;
+   }
+   
+   body::before {
+     content: '';
+     background-image: url('./Icons/Plastic\ &\ Tubes.jpg');
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     background-size: cover;
+     background-position: center;
+     opacity: 0.25;
+     /* z-index: -1; */
+     background-attachment: fixed;
+   }
+
+       @media screen and (max-width: 480px),(max-width: 768px) {
+      .menu-toggle {
+        position: relative;
+        display: block;
+        height: 40px;
+        width: 100%;
+        background: url(./Icons/menu.png) no-repeat 98% center;
+        cursor: pointer;
+        text-align: right;
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+
+      .menu {
+        display: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .menu.open {
+        display: block;
+      }
+
+      .menu li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid #404040; */
+      }
+
+      .menu li a {
+        display: block;
+        padding: 10px;
+        color: #d41c0c;
+        text-decoration: none;
+        text-align: center;
+      }
+
+
+      /* For the Photos  */
+
+      .photo-item {
+        margin-bottom: 10px;
+      }
+    
+      .photo-item img {
+        max-width: 100%;
+        height: auto;
+      }
+    
+      .photo-item h3 {
+        font-size: 16px;
+      }
+
+     
+  }
+  
+
+
+   
+     </style>
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="Company.html">
+            <img src="./Phtos /Logo.svg" alt="ZoyTechs Logo">
+          </a>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()"></div>
+        <ul class="menu" id="menu">
+          <li><a href="COMPANY.html">Home</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="photos">
+    <div class="container">
+      <h2>Plastic And Tubes</h2>
+  
+      <!-- Three photos in a row above -->
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="./Posts/PLASTIC/CENTRIFUGE Tube.png" alt="Photo 1"></a>
+          <h3>Centrifuge Tube</h3>
+        </div>
+
+        <div class="photo-item">
+          <img src="./Posts/PLASTIC/Plan Tube.jpg" alt="Photo 2">
+          <h3>Plain Tube</h3>
+        </div>
+
+        <div class="photo-item">
+          <img src="./Posts/PLASTIC/GEL Tube 2.png" alt="Photo 3">
+          <h3>Gel Tube</h3>
+        </div>
+      </div>
+  
+      <!-- Three photos in a row below -->
+      <div class="photo-row">
+        <div class="photo-item">
+          <img src="./Posts/PLASTIC/TIP YELLOW.jpg" alt="Photo 4">
+          <h3>Tip Yellow</h3>
+        </div>
+
+        <div class="photo-item">
+          <img src="./Posts/PLASTIC/TIP Blue.png" alt="Photo 5">
+          <h3>Tip Blue</h3>
+        </div>
+
+        <div class="photo-item">
+          <img src="./Posts/PLASTIC/EDTA Tube.jpg" alt="Photo 6">
+          <h3>EDTA Tube</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for any inquiries or project discussions.</p>
+      <a href="mailto:info@zoytechs.com" class="email">info@zoytechs.com</a>
+
+      <br>
+      <br>
+
+      <a href="https://wa.link/hgbazc" target="_blank">
+        <img src="./Icons/whatsapp.png" alt="WhatsApp Logo" class="whatsapp-icon">
+      </a>
+      <a href="https://www.instagram.com/zoytech.iq/" target="_blank">
+        <img src="./Icons/instagram.png" alt="INSTGRAM Logo" class="whatsapp-icon">
+      </a>
+      <a href="https://www.facebook.com/zoytech.iq?mibextid=LQQJ4d" target="_blank">
+        <img src="./Icons/facebook.png" alt="Facebook Logo" class="Facebook-icon">
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Al-Mamoura. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('menu');
+      menu.classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
